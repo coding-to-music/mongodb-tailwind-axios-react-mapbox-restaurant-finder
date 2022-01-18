@@ -1,3 +1,11 @@
+# Mongodb Tailwind Axios React Mapbox Restraunt Finder
+
+https://github.com/mongodb-developer/WhatsCooking
+
+https://www.atlassearchrestaurants.com/
+
+https://github.com/coding-to-music/mongodb-tailwind-axios-react-mapbox-restraunt-finder
+
 <h1 align="center">What's Cooking with Atlas Search</h1>
 
 <h2 align="center">A Restaurant Finder Application Demo MongoDB Atlas Search</h2>
