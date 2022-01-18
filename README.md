@@ -4,7 +4,7 @@ https://github.com/mongodb-developer/WhatsCooking
 
 https://www.atlassearchrestaurants.com/
 
-https://github.com/coding-to-music/mongodb-tailwind-axios-react-mapbox-restraunt-finder
+https://github.com/coding-to-music/mongodb-tailwind-axios-react-mapbox-restaurant-finder
 
 <h1 align="center">What's Cooking with Atlas Search</h1>
 
