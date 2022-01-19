@@ -1,10 +1,35 @@
-# Mongodb Tailwind Axios React Mapbox Restraunt Finder
+# Mongodb Tailwind Axios React Mapbox Restaurant Finder
 
 https://github.com/mongodb-developer/WhatsCooking
 
 https://www.atlassearchrestaurants.com/
 
 https://github.com/coding-to-music/mongodb-tailwind-axios-react-mapbox-restaurant-finder
+
+## Current bug I am seeing
+https://www.mongodb.com/community/forums/t/new-york-city-atlas-search-restaurant-finder-tutorial-getting-craco-cannot-find-eslint-loader-eslint-loader/142639
+
+```java
+yarn run start
+yarn run v1.22.17
+warning ../package.json: No license field
+$ craco start
+craco:  *** Cannot find ESLint loader (eslint-loader). ***
+(node:72056) UnhandledPromiseRejectionWarning: TypeError: match.loader.options.plugins is not a function
+    at extendsPostcss (/mnt/volume_nyc1_01/mongodb-tailwind-axios-react-mapbox-restaurant-finder/node_modules/@craco/craco/lib/features/webpack/style/postcss.js:54:51)
+    at overrideLoader (/mnt/volume_nyc1_01/mongodb-tailwind-axios-react-mapbox-restaurant-finder/node_modules/@craco/craco/lib/features/webpack/style/postcss.js:97:9)
+    at /mnt/volume_nyc1_01/mongodb-tailwind-axios-react-mapbox-restaurant-finder/node_modules/@craco/craco/lib/features/webpack/style/postcss.js:118:13
+    at Array.forEach (<anonymous>)
+    at overridePostcss (/mnt/volume_nyc1_01/mongodb-tailwind-axios-react-mapbox-restaurant-finder/node_modules/@craco/craco/lib/features/webpack/style/postcss.js:117:17)
+    at overrideStyle (/mnt/volume_nyc1_01/mongodb-tailwind-axios-react-mapbox-restaurant-finder/node_modules/@craco/craco/lib/features/webpack/style/style.js:9:25)
+    at mergeWebpackConfig (/mnt/volume_nyc1_01/mongodb-tailwind-axios-react-mapbox-restaurant-finder/node_modules/@craco/craco/lib/features/webpack/merge-webpack-config.js:48:30)
+    at overrideWebpackDev (/mnt/volume_nyc1_01/mongodb-tailwind-axios-react-mapbox-restaurant-finder/node_modules/@craco/craco/lib/features/webpack/override.js:11:36)
+    at /mnt/volume_nyc1_01/mongodb-tailwind-axios-react-mapbox-restaurant-finder/node_modules/@craco/craco/scripts/start.js:24:5
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:72056) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 1)
+(node:72056) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+Done in 2.17s.
+```
 
 <h1 align="center">What's Cooking with Atlas Search</h1>
 
